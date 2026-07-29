@@ -8,16 +8,6 @@ An interactive earnings preview published **July 28, 2026**, ahead of Qualcomm's
 
 ---
 
-## Read this first
-
-**This preview is deliberately incomplete, and the site says so on its own front page.**
-
-Research for this name hit a hard limit on available web searches before the qualitative work was finished. Two separate attempts to build a full fact sheet were terminated by technical failures, and the remaining data was gathered by direct page fetches only.
-
-That means several load-bearing topics are **not covered**: handset customer concentration, the Arm litigation, automotive and IoT progress against stated targets, data-centre ambitions, and China exposure.
-
-Rather than pad the gap with plausible-sounding narrative, those sections were left out. What is here is verified. What is missing is named explicitly. Writing confident commentary from memory is exactly the failure mode this series exists to avoid.
-
 ## The finding
 
 Thirty-six analysts cover Qualcomm. Their published price targets run from **$100 to $314**.
@@ -28,40 +18,81 @@ As share of price = $214 ÷ $162.88   = 131%
 Ratio             = $314 ÷ $100      = 3.14×
 ```
 
-For contrast, Visa's published targets this week span $330 to $450 — a **1.36×** ratio. Qualcomm's is **3.14×**, and the consensus rating is **Hold**, which is what you get when you average two confident and opposite views.
+Visa, reporting the same week, spans $330 to $450 — a **1.36×** ratio. Qualcomm's is **3.14×**, with a consensus rating of **Hold**.
 
-## What the numbers say
+**That dispersion is not confusion. It is a dated, quantified fork**, and both halves come from Qualcomm's own mouth.
 
-- The street models **FY2026 revenue down 3.80%** and **EPS down 10.18%** — a decline year, followed by roughly flat
-- **Gross margin has eroded four consecutive quarters:** 55.56% → 55.34% → 54.55% → **53.77%**, a cumulative 179bp
-- Operating margin fell further, 26.65% → **21.79%**, as opex didn't scale down with revenue
-- The stock fell **4.21% on July 28**, the session before the print, and sits **37.3% below its 52-week high**
-- Against that: **7.28% FCF yield**, **36.08% ROE**, a 39.55% payout ratio, and 14.9–16.6× forward earnings
+## Half one: the exit is on the record
 
-## The model's most useful output
+Asked directly about Apple on the April 29 call, CFO Akash Palkhiwala:
+
+> "No change, Tim, to our assumption there. We have said **20% share of the phones that will launch in fall this year and no product relationship beyond that**."
+
+On FY2027 he added that sell-side models around **"a little over $2 billion"** of QCT product revenue are **"a reasonable place to model the business."** The 10-Q is blunter: Apple's shift to in-house modems "will have a **significant negative impact** on our QCT revenues, results of operations and cash flows."
+
+Most bear cases are forecasts. This one is guidance.
+
+**Two agreements, different expiries** — conflating them is the most common error in QCOM commentary:
+
+| | Chip supply | Patent licence |
+|---|---|---|
+| Status | Ends after fall 2026 launches | Runs to **March 2027** |
+| Management view | "No product relationship beyond that" | "Same scale that it is at" |
+| Margin | Thin modem, **below** corporate average | **72% EBT margin** |
+
+Losing Apple removes revenue that was already dilutive to blended margin — so the earnings hit should be less than proportional to the revenue hit.
+
+## Half two: the replacement is real, large, and barely started
+
+At its **June 24, 2026 Investor Day**, Qualcomm raised the FY2029 non-handset target to **$40B — roughly double the prior target**:
+
+| Target FY2029 | Goal | Annualising today | Gap |
+|---|---|---|---|
+| Automotive | **$10B** | ~$5.3B | Working — +38%, guided ~+50% |
+| IoT | **>$14B** | ~$6.9B | Needs to roughly double |
+| **Data Center** | **>$15B** | **$141M** (with QGOV), **−$121M EBT** | The leap |
+| Non-GAAP EPS | **>$18** | $10.81 street FY26 | Today's price ≈ **9× that** |
+
+Contracted: a **Meta** multi-generation CPU agreement (but the C1000 doesn't reach production until **H2 2028**), an **unnamed hyperscaler** shipping **December 2026**, **HUMAIN** at 200MW, plus **Alphawave** closed and **Modular** acquired to attack Nvidia's CUDA moat.
+
+**A $314 target is roughly the $18 FY2029 EPS goal at a market multiple. A $100 target assumes the bridge never gets built.**
+
+## Two things the page resolves
+
+**The GAAP anomaly.** Last quarter reported **GAAP EPS of $6.88 against non-GAAP of $2.65**. An earlier version of this page flagged the gap without being able to explain it. Cause: a **$5.7B tax benefit worth $5.33/share** from releasing a valuation allowance after new Treasury/IRS CAMT guidance. All comparisons here use non-GAAP.
+
+**A falsifiable management claim.** The China weakness is attributed to memory prices, not demand — shipments "materially under-shipped consumer demand" — and management dated the turn: handset revenue from Chinese customers "will reach a **bottom in the third quarter** and return to sequential growth in the following quarter." That is checkable on Wednesday.
+
+## The model
 
 ```
 Implied price = FY2027 EPS × Forward P/E
 ```
 
-- **Managed Decline** ($10.81 × 15.0×) → **$162.15** — within a dollar of today's price
+- **Managed Decline** ($10.81 × 15.0×) → **$162.15** — within a dollar of spot
 - **Handset Cliff** ($8.50 × 12.0×) → **$102** — essentially the published $100 street low
+- **Bridge Gets Built** ($12.00 × 18.0×) → **$216** — near the $220.57 average
 
-The market is discounting the consensus decline, not a catastrophe. And the analyst carrying $100 is modelling a ~20% earnings step-down *and* a trough multiple simultaneously.
+No DCF: the terminal value turns on whether $40B of non-handset revenue arrives against a dated customer exit. That's a step function, not a growth rate.
 
-## Headline EPS is unreadable here
+## Sourcing standard
 
-Qualcomm's GAAP and non-GAAP figures have diverged violently. The March 2026 quarter reported **GAAP EPS of $6.88 on operating income of just $2,309M**. The September 2025 quarter reported a **GAAP net loss of $3,117M despite $2,918M of positive operating income**. Non-GAAP for those quarters was $2.65 and $3.00. **All comparisons on this page use the non-GAAP series.**
+Primary SEC filings and the earnings transcript first, market data second, reporting last and flagged. My arithmetic tagged **computed**. Conflicts disclosed rather than resolved silently.
 
-## A consensus conflict, disclosed rather than resolved
+### Flagged at the point of use, not buried
 
-Two sources put FQ3 consensus at **$2.23 EPS on $9.68B** — both inside the company's guided $2.10–$2.30 and $9.2–10.0B bands. A third publishes **$1.93 on $10.2B**, which is *below* the guided EPS floor and *above* the guided revenue ceiling simultaneously.
+- **The September price increase** (double-digit %, effective Sept 1) is a **single Bloomberg scoop from a client letter**. Qualcomm declined to comment; Reuters could not independently verify. Every other outlet traces to it.
+- **The iPhone 18 modem reporting** rests on **documents stolen in a cyberattack** on Tata Electronics, and the outlet says it hasn't seen the files directly. **No Apple statement on any of this exists in 2026.**
+- **Data centre FY2026/FY2027 revenue figures** circulating from Investor Day appear only in third-party write-ups and are **not used**. Only the company-sourced ">$15B by FY2029" appears.
+- **Modular's price** is reported at "$3.9B"/"nearly $4B"; Qualcomm disclosed only "up to 19.2 million shares."
 
-That pattern suggests a different accounting basis or a stale vintage rather than a genuine view. **The $2.23 / $9.68B pair is used**, with the reasoning stated on the page, because readers will encounter $1.93 elsewhere and should know why it isn't used here.
+### Where filings beat the press
 
-## Sourcing note
+Secondary coverage widely dates the Arm countersuit trial to **March 2026** and the appeal to the **Federal Circuit**. The 10-Q says **October 5, 2026** and the **Third Circuit**. The filing wins.
 
-Unlike the other previews in this series, this page contains **no primary SEC filing or transcript sourcing** — it is built entirely on market and financial data providers, all named. That is a real limitation and it is disclosed on the page itself.
+### Disclosed conflicts
+
+FQ3 consensus is **$2.23 on $9.68B** (two sources) versus **$1.93 on $10.2B** (a third) — the latter sits *below* the guided EPS floor and *above* the guided revenue ceiling simultaneously, so it isn't used. Forward P/E is 16.55× and 14.87×. Average target is $220.57 and $227.90. China Q2 shipments fell 4.3% (IDC) or 2% (Counterpoint).
 
 ---
 
@@ -80,4 +111,4 @@ Static HTML, CSS and vanilla JavaScript. No build step, no dependencies, no exte
 
 ## Disclaimer
 
-Independent research written for a public portfolio. **Not investment advice**, not a recommendation to buy or sell any security, and it carries no rating or price target. This preview is explicitly incomplete in its qualitative coverage, and says so. Do your own work.
+Independent research written for a public portfolio. **Not investment advice**, not a recommendation to buy or sell any security, and it carries no rating or price target. Do your own work.

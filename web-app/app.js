@@ -66,18 +66,18 @@ const WK52_LOW    = 121.99;
 
 const SCENARIOS = {
   diversify: {
-    label: 'Diversification Works',
-    desc: 'Automotive, IoT and PC revenue scale fast enough to absorb handset concentration, gross margin stabilises above 54%, and the market stops treating Qualcomm as a single-customer story. At an 18× multiple on $12.00 of FY2027 earnings the stock re-rates toward the average street target — still well short of the $314 high, which requires believing something considerably more aggressive.',
+    label: 'The Bridge Gets Built',
+    desc: 'The $40B FY2029 non-handset plan tracks: automotive holds ~50% growth toward its $10B target, the December hyperscaler shipment lands on time, and gross margin stabilises above 54% as the September price increase sticks. At 18× on $12.00 the stock re-rates toward the average street target. For orientation, Qualcomm\'s own FY2029 goal of more than $18 of non-GAAP EPS at a 17× multiple would be roughly $306 — which is essentially the $314 street high.',
     eps: 12.00, pe: 18.0, panelClass: 'scenario-bull',
   },
   managed: {
     label: 'The Managed Decline',
-    desc: 'The street already models FY2026 revenue down 3.8% and EPS down 10.2%. This case simply says that is roughly right and the multiple holds near where it is. Notice where it lands: almost exactly at today\'s price. That is the useful finding — the market is not pricing a disaster, it is pricing the consensus decline, and the $220 average target is the outlier rather than the share price.',
+    desc: 'The street already models FY2026 revenue down 3.8% and EPS down 10.2%. This case says that is roughly right and the multiple holds. Notice where it lands: almost exactly at today\'s price. That is the useful finding — the market is pricing the consensus decline rather than a disaster, and the $220 average target is the outlier rather than the share price. China handsets bottom in FQ3 as management guided, automotive keeps compounding, and data centre stays a 2028 story.',
     eps: 10.81, pe: 15.0, panelClass: 'scenario-base',
   },
   cliff: {
     label: 'The Handset Cliff',
-    desc: 'Concentration risk resolves badly: handset revenue steps down faster than diversification replaces it, gross margin keeps sliding from the four-quarter erosion already visible, and the multiple compresses to a cyclical-semis trough. At 12× on $8.50 this lands near $102 — which is essentially the published $100 street low. Someone on the tape is modelling exactly this.',
+    desc: 'Apple goes to zero on schedule with nothing replacing it: FY2027 Apple revenue comes in under the ~$2B management endorsed, the China bottom slips past FQ3, gross margin extends its four-quarter slide, and data centre stays a loss-making $141M line. The multiple compresses to a cyclical-semis trough. At 12× on $8.50 this lands near $102 — essentially the published $100 street low. Someone on the tape is modelling exactly this.',
     eps: 8.50, pe: 12.0, panelClass: 'scenario-bear',
   },
 };
